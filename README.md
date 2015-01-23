@@ -17,11 +17,11 @@ As seguintes instruções devem ser realizadas para a execução/teste do projet
       
   * Testar serviços: (GET)
     * Testar serivço de cadastro de POI:
-      * Inserir na URL do browser: {endpoint}/save/{poi.nome}/{poi.x}/{poi.y}
+      * Inserir na URL do browser: {endpoint}/poiRest/save/{poi.nome}/{poi.x}/{poi.y}
       * Verificar retorno do serviço => Informações do novo POI cadastrado em formato JSON
     * Testar serviço de busca dos POI cadastrados:
-      * Inserir na URL do browser: {endpoint}/findAll
+      * Inserir na URL do browser: {endpoint}/poiRest/findAll
       * Verificar retorno do serviço => Informações de todos os POIs cadastrado em formato JSON
     * Testar serviço de busca dos POI por referencia:
-      * Inserir na URL do browser: {endpoint}/find/{x}/{y}/{referencia}
+      * Inserir na URL do browser: {endpoint}/poiRest/find/{x}/{y}/{referencia}
       * Verificar retorno do serviço => Informações de todos os POIs cadastrado em formato JSON
