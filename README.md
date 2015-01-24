@@ -4,7 +4,7 @@ Repositório destinado a armazenar o projeto PoiService para a empresa XY-INC.
 As seguintes instruções devem ser realizadas para a execução/teste do projeto PoiService:
 
   * Preparação do ambiente:
-    * Instalar banco de dados Postgres (http://www.postgresql.org/download/) com configurações padronizadas (user=postgres, pass=123);
+    * Instalar banco de dados Postgres (http://www.postgresql.org/download/) com configurações padronizadas (database=postgres,user=postgres, pass=123);
     * Instalar o TomCat 6 (http://tomcat.apache.org/download-60.cgi);
     * Instalar o Maven 3.2.5 (http://maven.apache.org/download.cgi).
   
